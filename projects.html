@@ -17,67 +17,76 @@ ADD TO THE READ ME ON WHAT YOU'VE DONE/ADDED/EDITED! :)
 
 
 
-
-
-<html>
-
-<head>
-  <title>Sobie</title>
-
 <body>
 
   <div class="header">
     <img src="https://thesobie.github.io/sobieconference.org/assets/sobie-icon.svg" alt="Sobie" width="500" height="333">
-
-    <h1>SOBIE</h1>
+    <h1>The Society of Business, Industry, & Economics</h1>
     <h2>Annual Academic Conference</h2>
   </div>
 
   <ul>
-    <li><a href="#home">Home</a></li>
+    <li><a href="projects.html">Home</a></li>
     <li><a href="#news">Conference Registration</a></li>
     <li><a href="#contact">Hotel Booking</a></li>
     <li><a href="index.html">About</a></li>
   </ul>
 
-  <div class="Overview">
-    <h2>Sobie Overview</h2>
+  <!-- Section: Overview -->
+  <section class="sobie-history">
+    <h2>SOBIE Overview</h2>
     <p>What is SOBIE?</p>
-  </div>
+  </section>
 
-  <div class="row">
-    <div class="column">
-      <h2>When and Where</h2>
-      <p>April 9, 2025-April 11, 2025
-      </p>
-      <p>Linkside Conference Center:
-        <a href="https://maps.app.goo.gl/iBk2csgBd7S6YXyZ6" target="lakeside">158 Sandestin Blvd N, Destin, FL 32550</a>
-      </p>
+  <!-- Divider -->
+  <hr class="divider">
 
-    </div>
+  <!-- Section: When and Where -->
+  <section class="sobie-mission">
+    <h2>When and Where</h2>
+    <p>
+      April 9, 2025 – April 11, 2025<br><br>
+      Linkside Conference Center:<br>
+      <a href="https://maps.app.goo.gl/iBk2csgBd7S6YXyZ6" target="_blank">
+        158 Sandestin Blvd N, Destin, FL 32550
+      </a>
+    </p>
+  </section>
 
-    <div class="column">
-      <h2>Checklist</h2>
-      <form action="/action_page.php">
-        <input type="checkbox" id="num1" name="num1" value="cb1">
-        <label for="num1"> Submit <a href="https://thesobie.github.io/sobieconference.org/assets/sobieDocs/sobie2025-callForPapers.pdf" target="lakeside">Call For Papers</a></p></label><br>
-        <input type="checkbox" id="num2" name="num1" value="cb2">
-        <label for="num2"> <a href="https://thesobie.github.io/sobieconference.org/assets/sobieDocs/sobie2025-callForPapers.pdf" target="lakeside">Register</a> for Conference</label><br>
-        <input type="checkbox" id="num3" name="num3" value="cb3">
-        <label for="num3"> Book hotel</label><br><br>
-      </form>
+  <!-- Divider -->
+  <hr class="divider">
 
-      <p></p>
-    </div>
+  <!-- Section: Checklist -->
+  <section class="sobie-jobie">
+    <h2>Checklist</h2>
+    <ul>
+      <li><input type="checkbox" id="cb1"><label for="cb1"> Submit <a href="https://thesobie.github.io/sobieconference.org/assets/sobieDocs/sobie2025-callForPapers.pdf" target="_blank">Call for Papers</a></label></li>
+      <li><input type="checkbox" id="cb2"><label for="cb2"> <a href="https://thesobie.github.io/sobieconference.org/assets/sobieDocs/sobie2025-callForPapers.pdf" target="_blank">Register</a> for Conference</label></li>
+      <li><input type="checkbox" id="cb3"><label for="cb3"> Book hotel</label></li>
+    </ul>
+  </section>
 
-    <div class="column">
-      <h2>Important Dates</h2>
-      <p>Jan 8,2025 Call for papers</p>
-      <p>Feb 12,2025 Online Registration Form</p>
-      <p>April 1,2025 Conference & Research Submission Deadline</p>
-    </div>
-  </div>
+  <!-- Divider -->
+  <hr class="divider">
+
+  <!-- Section: Important Dates -->
+  <section class="sobie-history">
+    <h2>Important Dates</h2>
+    <p>
+      Jan 8, 2025 — Call for Papers<br>
+      Feb 12, 2025 — Online Registration Form Opens<br>
+      April 1, 2025 — Conference & Research Submission Deadline
+    </p>
+  </section>
+
+  <footer class="footer-bar">
+    <p>© <span id="year"></span> SOBIE | <a href="https://sobieconference.org" target="_blank">sobieconference.org</a> |
+      @SOBIE Web Team</p>
+  </footer>
+
+  <script>
+    // Auto-update year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
-
-</html>
