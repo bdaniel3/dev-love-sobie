@@ -14,14 +14,26 @@ ADD TO THE READ ME ON WHAT YOU'VE DONE/ADDED/EDITED! :)
 
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SOBIE | Home</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
 <body>
 
+  <!-- Header -->
   <div class="header">
     <img src="https://thesobie.github.io/sobieconference.org/assets/sobie-icon.svg" alt="Sobie" width="500" height="333">
     <h1>The Society of Business, Industry, & Economics</h1>
     <h2>Annual Academic Conference</h2>
   </div>
 
+  <!-- Navigation -->
   <ul>
     <li><a href="projects.html">Home</a></li>
     <li><a href="#news">Conference Registration</a></li>
@@ -29,16 +41,15 @@ ADD TO THE READ ME ON WHAT YOU'VE DONE/ADDED/EDITED! :)
     <li><a href="index.html">About</a></li>
   </ul>
 
-  <!-- Section: Overview -->
+  <!-- Overview Section -->
   <section class="sobie-history">
     <h2>SOBIE Overview</h2>
     <p>What is SOBIE?</p>
   </section>
 
-  <!-- Divider -->
   <hr class="divider">
 
-  <!-- Section: When and Where -->
+  <!-- When and Where -->
   <section class="sobie-mission">
     <h2>When and Where</h2>
     <p>
@@ -50,23 +61,21 @@ ADD TO THE READ ME ON WHAT YOU'VE DONE/ADDED/EDITED! :)
     </p>
   </section>
 
-  <!-- Divider -->
   <hr class="divider">
 
-  <!-- Section: Checklist -->
+  <!-- Checklist -->
   <section class="sobie-jobie">
     <h2>Checklist</h2>
-    <ul>
+    <ul class="sobie-list">
       <li><input type="checkbox" id="cb1"><label for="cb1"> Submit <a href="https://thesobie.github.io/sobieconference.org/assets/sobieDocs/sobie2025-callForPapers.pdf" target="_blank">Call for Papers</a></label></li>
       <li><input type="checkbox" id="cb2"><label for="cb2"> <a href="https://thesobie.github.io/sobieconference.org/assets/sobieDocs/sobie2025-callForPapers.pdf" target="_blank">Register</a> for Conference</label></li>
       <li><input type="checkbox" id="cb3"><label for="cb3"> Book hotel</label></li>
     </ul>
   </section>
 
-  <!-- Divider -->
   <hr class="divider">
 
-  <!-- Section: Important Dates -->
+  <!-- Important Dates -->
   <section class="sobie-history">
     <h2>Important Dates</h2>
     <p>
@@ -76,14 +85,17 @@ ADD TO THE READ ME ON WHAT YOU'VE DONE/ADDED/EDITED! :)
     </p>
   </section>
 
+  <!-- Footer -->
   <footer class="footer-bar">
     <p>© <span id="year"></span> SOBIE | <a href="https://sobieconference.org" target="_blank">sobieconference.org</a> |
       @SOBIE Web Team</p>
   </footer>
 
+  <!-- Auto Year Script -->
   <script>
-    // Auto-update year
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 
 </body>
+
+</html>
