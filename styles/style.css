@@ -159,25 +159,52 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
 */ allisons CSS code for home page */
 
-.sobie-jobie ul {
+
+
+
+
+
+
+/* Reuse styles from the About page already in your file */
+
+/* Checklist formatting inside the jobie card */
+.sobie-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.sobie-jobie li {
+.sobie-list li {
   margin-bottom: 10px;
   font-size: 1.05rem;
   line-height: 1.6;
   color: #2c3e50;
 }
 
-.sobie-jobie input[type="checkbox"] {
+.sobie-list input[type="checkbox"] {
   margin-right: 10px;
   transform: scale(1.2);
 }
 
+.sobie-list a {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+
+.sobie-list a:hover {
+  color: #f1c40f;
+}
 
 
