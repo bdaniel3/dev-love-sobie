@@ -1,6 +1,6 @@
 # dev-love-sobie
 
-This project is a redesigned and modernized “About” section for the <b>Society of Business</b>, <b>Industry</b>, and <b>Economics</b> (SOBIE) website. The goal was to create a clean, informative layout that highlights SOBIE’s history, mission, and journal, JOBIE.
+This project is a redesigned and modernized "About" section for the <b>Society of Business</b>, <b>Industry</b>, and <b>Economics</b> (SOBIE) website. The goal was to create a clean, informative layout that highlights SOBIE’s history, mission, and journal, JOBIE.
 
 The site features a card-based layout styled with custom CSS, incorporating SOBIE’s brand colors navy and gold for visual consistency. Section dividers, hover effects, and structured content help guide the user experience.
 
