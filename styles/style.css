@@ -172,6 +172,8 @@ body {
 }
 
 .sobie-list li {
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
   font-size: 1.05rem;
   line-height: 1.6;
