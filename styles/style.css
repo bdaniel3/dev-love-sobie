@@ -181,6 +181,8 @@ body {
 .sobie-list input[type="checkbox"] {
   margin-right: 10px;
   transform: scale(1.2);
+  vertical-align: middle;
+  margin-top: -2px; 
 }
 
 .sobie-list a {
@@ -191,5 +193,3 @@ body {
 .sobie-list a:hover {
   color: #f1c40f;
 }
-
-
