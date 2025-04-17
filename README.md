@@ -6,7 +6,7 @@ The site features a card-based layout styled with custom CSS, incorporating SOBI
 
 These updates were designed with clarity, accessibility, and professional presentation in mind, making them ideal for prospective conference attendees, academic researchers, and first-time visitors alike. 👏
 
-[Click here to view the new and improved ✨ SOBIE Homepage](https://bdaniel3.github.io/dev-love-sobie/projects.thml)
+[Click here to view the new and improved ✨ SOBIE Homepage](https://bdaniel3.github.io/dev-love-sobie/projects.thml)<br>
 [Click here to view the new and improved ✨ SOBIE About Section](https://bdaniel3.github.io/dev-love-sobie/)
 
 ## Features
