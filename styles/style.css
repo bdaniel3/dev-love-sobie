@@ -158,21 +158,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-*/ allisons CSS code for home page */
-
-
-
+/* allisons CSS code for home page */
 
 
 
@@ -182,6 +168,7 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  background: none;
 }
 
 .sobie-list li {
