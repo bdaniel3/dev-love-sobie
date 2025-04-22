@@ -9,6 +9,8 @@ These updates were designed with clarity, accessibility, and professional presen
 [Click here to view the new and improved ✨ SOBIE Homepage](https://bdaniel3.github.io/dev-love-sobie/projects.thml)<br>
 [Click here to view the new and improved ✨ SOBIE About Section](https://bdaniel3.github.io/dev-love-sobie/)
 
+[<script src="https://gist.github.com/bdaniel3/5fae57403950ceb1d7994b6067d5947f.js"></script>](https://gist.github.com/bdaniel3/5fae57403950ceb1d7994b6067d5947f)
+
 ## Features
 - 🧱 Clean, responsive layout
 - 🎨 SOBIE-branded styling with navy and gold
